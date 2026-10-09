@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas medicas</title>
+
+    <style>
+        h1{text-align: center;}
+        body{background: radial-gradient(white, rgb(177, 177, 177));
+        background-attachment: fixed;}
+        form{margin-left:400px;}
+    </style>
+
+</head>
+<body>
+    <hr color="red">
+    <h1>Registro de citas medicas</h1>
+    <hr color="red">
+
+    <form action="agradecimiento.html">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" required placeholder="Nombre/s del paciente">
+        <br>
+        <label for="telefono">Telefono:</label>
+        <input type="number" name="fecha" id="fecha">
+        <br>
+        <label for="fecha">Fecha:</label>
+        <input type="date" name="fecha" id="fecha">
+        <br>
+        <label for="hora">Hora:</label>
+        <input type="time" name="hora" id="hora">
+        <br>
+        <label for="mes">Mes:</label>
+        <input type="month" name="mes" id="mes">
+        <br>
+        <label for="semana">Semana del año:</label>
+        <input type="week" name="semana" id="semana">
+        <br>
+        <input type="submit" value="Enviar datos de cita">
+        <input type="reset" value="Cancelar registro">
+    </form>
+</body>
+</html>

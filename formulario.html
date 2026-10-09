@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <style>
+    .respuesta{width: 300px;}
+    body{background: radial-gradient(white, rgb(177, 177, 177));
+        background-attachment: fixed;} 
+    form{margin-left: 400px;}
+    h1{text-align: center;}
+    </style>
+
+</head>
+<body> 
+    <h1>Formulario</h1>
+    <form name="registro" action="agradecimiento.html">
+        <label for="nombreregistro">Nombre</label>
+        <input type="text" name="nombreregistro" id="nombreregistro" required placeholder="Poner nombre/s" class="respuesta">
+        <br>
+        <label for="genero">Genero:</label>
+        <select name="genero" id="genero">
+            <option value="">Seleccionar una opcion</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+        </select>
+        <br>
+        <label for="correoregistro">Correo</label>
+        <input type="email" name="correoregistro" id="correoregistro" required placeholder="Poner correo" class="respuesta">
+        <br>
+        <label for="contraseñaregistro">Contraseña</label>
+        <input type="password" name="contraseñaregistro" id="contraseñaregistro" required, minlength="5" maxlength="8"
+        placeholder="Poner contraseña" class="respuesta">
+        <br>
+        <input type="submit" value="Enviar formulario"> <input type="reset" value="Cancelar" style="margin-left: 10px;">
+    </form>
+
+</body>
+</html>

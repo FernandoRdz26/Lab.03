@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de satisfaccion</title>
+    
+    <style>
+        h1{text-align: center; background-color: antiquewhite;}
+        body{background: radial-gradient(white, rgb(177, 177, 177));
+        background-attachment: fixed;}
+        form{margin-left: 400px;}
+    </style>
+
+</head>
+<body>
+    <hr color="gold">
+    <h1>Encuestas de satisfaccion de conferencias</h1>
+    <hr color="gold">
+    
+    <form action="agradecimiento.html">
+        <label for="experiencia" style="color: red;">¿Como calificarias tu experiencia?</label>
+        <br>
+        <label for="satisfactroia">satisfactoria</label>
+        <input type="radio" name="satisfactoria" id="satisfactoria">
+        <br>
+        <label for="buena">buena</label>
+        <input type="radio" name="buena" id="buena">
+        <br>
+        <label for="insatisfactoria">insatisfactoria</label>
+        <input type="radio" name="" id="">
+        <br>
+        <label for="mejorar" style="color: red;">Punto/s a mejorar:</label>
+        <br>
+        <label for="exponer">La manera de exponer los temas</label>
+        <input type="checkbox" name="exponer" id="exponer">
+        <br>
+        <label for="temas">Los temas a exponer</label>
+        <input type="checkbox" name="temas" id="temas">
+        <br>
+        <label for="duracion">Duracion</label>
+        <input type="checkbox" name="duracion" id="duracion">
+        <br>
+        <label for="asistencias" style="color: red;">¿Le gustaria ser invitado a proximas conferencias?</label>
+        <br>
+        <label for="si">Si</label>
+        <input type="radio" name="si" id="si">
+        <br>
+        <label for="no">No</label>
+        <input type="radio" name="no" id="no">
+        <br>
+        <label for="pais" style="color: red;">Pais y ciudad:</label>
+        <br>
+        <select name="paisciudad" id="paisciudad">
+            <option value="">Seleccionar opcion</option>
+            <option value="Mexico/Monterrey">Mexico/Monterrey</option>
+            <option value="Mexico/ciudadmexico">Mexico/CDMX</option>
+        </select>
+        <br>
+        <input type="submit" value="Enviar encuesta">
+        <input type="reset" value="Cancelar encuesta">
+    </form>
+
+</body>
+</html>
